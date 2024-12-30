@@ -37,11 +37,13 @@ output_layers = [layer_names[i-1] for i in net.getUnconnectedOutLayers()]
 engine = pyttsx3.init()
 
 # Initialize Twilio client
-account_sid = 'AC2c7270071e1b411884f754117de7411c'
-auth_token = '593c3ddd0f1f86e9fb50332368ef8f8b'
-client = Client(account_sid, auth_token)
-from_number = '+16076008309'
-to_number = '+917439839069'
+#for this part since we need to keep things professional and private the user have to create his/her twilio account and fill up the credentials as required
+# for the server to run
+# account_sid = 'from twilio account'
+# auth_token = 'from twilio account'
+# client = Client(account_sid, auth_token)
+# from_number = 'number given in your twilio account'
+# to_number = 'here your phone number'
 
 # Initialize microphone
 chunk = 1024
